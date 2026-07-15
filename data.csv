@@ -1,0 +1,301 @@
+fd,family,type,laddr,raddr,status
+28,2,1,"addr(ip='127.0.0.1', port=53430)",(),LISTEN
+38,2,1,"addr(ip='127.0.0.1', port=17430)",(),LISTEN
+28,2,1,"addr(ip='192.168.1.7', port=63751)","addr(ip='52.123.187.9', port=443)",ESTABLISHED
+22,2,1,"addr(ip='192.168.1.7', port=49578)","addr(ip='52.123.250.166', port=443)",ESTABLISHED
+24,2,1,"addr(ip='192.168.1.7', port=49929)","addr(ip='52.123.128.14', port=443)",ESTABLISHED
+25,2,1,"addr(ip='192.168.1.7', port=63963)","addr(ip='52.112.95.166', port=443)",ESTABLISHED
+27,2,1,"addr(ip='192.168.1.7', port=49932)","addr(ip='52.96.157.130', port=443)",ESTABLISHED
+41,2,1,"addr(ip='127.0.0.1', port=50769)",(),LISTEN
+61,2,1,"addr(ip='127.0.0.1', port=18679)",(),LISTEN
+72,2,1,"addr(ip='127.0.0.1', port=27996)",(),LISTEN
+27,2,1,"addr(ip='192.168.1.7', port=49289)","addr(ip='162.247.241.14', port=443)",ESTABLISHED
+28,2,1,"addr(ip='192.168.1.7', port=64052)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+29,2,1,"addr(ip='192.168.1.7', port=64050)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+31,2,1,"addr(ip='192.168.1.7', port=64053)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+39,2,1,"addr(ip='192.168.1.7', port=64065)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+40,2,1,"addr(ip='192.168.1.7', port=64051)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+42,2,1,"addr(ip='192.168.1.7', port=64054)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+43,2,1,"addr(ip='192.168.1.7', port=64055)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+48,2,1,"addr(ip='192.168.1.7', port=63758)","addr(ip='208.103.161.2', port=443)",ESTABLISHED
+63,2,1,"addr(ip='192.168.1.7', port=64066)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+27,2,1,"addr(ip='192.168.1.7', port=49930)","addr(ip='104.46.162.229', port=443)",ESTABLISHED
+30,2,1,"addr(ip='192.168.1.7', port=49933)","addr(ip='140.82.113.6', port=443)",ESTABLISHED
+34,2,1,"addr(ip='192.168.1.7', port=49931)","addr(ip='104.46.162.229', port=443)",ESTABLISHED
+15,2,1,"addr(ip='0.0.0.0', port=49928)",(),LISTEN
+16,30,1,"addr(ip='::', port=49928)",(),LISTEN
+22,30,1,"addr(ip='::', port=61804)",(),LISTEN
+24,30,1,"addr(ip='::', port=61805)",(),LISTEN
+18,30,1,"addr(ip='::', port=61803)",(),LISTEN
+21,30,1,"addr(ip='::', port=61806)",(),LISTEN
+20,30,1,"addr(ip='::', port=60590)",(),LISTEN
+28,2,1,"addr(ip='127.0.0.1', port=53430)",(),LISTEN
+38,2,1,"addr(ip='127.0.0.1', port=17430)",(),LISTEN
+28,2,1,"addr(ip='192.168.1.7', port=63751)","addr(ip='52.123.187.9', port=443)",ESTABLISHED
+22,2,1,"addr(ip='192.168.1.7', port=49578)","addr(ip='52.123.250.166', port=443)",ESTABLISHED
+24,2,1,"addr(ip='192.168.1.7', port=49929)","addr(ip='52.123.128.14', port=443)",ESTABLISHED
+25,2,1,"addr(ip='192.168.1.7', port=63963)","addr(ip='52.112.95.166', port=443)",ESTABLISHED
+27,2,1,"addr(ip='192.168.1.7', port=49932)","addr(ip='52.96.157.130', port=443)",ESTABLISHED
+41,2,1,"addr(ip='127.0.0.1', port=50769)",(),LISTEN
+61,2,1,"addr(ip='127.0.0.1', port=18679)",(),LISTEN
+72,2,1,"addr(ip='127.0.0.1', port=27996)",(),LISTEN
+27,2,1,"addr(ip='192.168.1.7', port=49289)","addr(ip='162.247.241.14', port=443)",ESTABLISHED
+28,2,1,"addr(ip='192.168.1.7', port=64052)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+29,2,1,"addr(ip='192.168.1.7', port=64050)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+31,2,1,"addr(ip='192.168.1.7', port=64053)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+39,2,1,"addr(ip='192.168.1.7', port=64065)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+40,2,1,"addr(ip='192.168.1.7', port=64051)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+42,2,1,"addr(ip='192.168.1.7', port=64054)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+43,2,1,"addr(ip='192.168.1.7', port=64055)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+48,2,1,"addr(ip='192.168.1.7', port=63758)","addr(ip='208.103.161.2', port=443)",ESTABLISHED
+63,2,1,"addr(ip='192.168.1.7', port=64066)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+27,2,1,"addr(ip='192.168.1.7', port=49930)","addr(ip='104.46.162.229', port=443)",ESTABLISHED
+30,2,1,"addr(ip='192.168.1.7', port=49933)","addr(ip='140.82.113.6', port=443)",ESTABLISHED
+34,2,1,"addr(ip='192.168.1.7', port=49931)","addr(ip='104.46.162.229', port=443)",ESTABLISHED
+15,2,1,"addr(ip='0.0.0.0', port=49928)",(),LISTEN
+16,30,1,"addr(ip='::', port=49928)",(),LISTEN
+22,30,1,"addr(ip='::', port=61804)",(),LISTEN
+24,30,1,"addr(ip='::', port=61805)",(),LISTEN
+18,30,1,"addr(ip='::', port=61803)",(),LISTEN
+21,30,1,"addr(ip='::', port=61806)",(),LISTEN
+20,30,1,"addr(ip='::', port=60590)",(),LISTEN
+28,2,1,"addr(ip='127.0.0.1', port=53430)",(),LISTEN
+38,2,1,"addr(ip='127.0.0.1', port=17430)",(),LISTEN
+28,2,1,"addr(ip='192.168.1.7', port=63751)","addr(ip='52.123.187.9', port=443)",ESTABLISHED
+22,2,1,"addr(ip='192.168.1.7', port=49578)","addr(ip='52.123.250.166', port=443)",ESTABLISHED
+24,2,1,"addr(ip='192.168.1.7', port=49929)","addr(ip='52.123.128.14', port=443)",ESTABLISHED
+25,2,1,"addr(ip='192.168.1.7', port=63963)","addr(ip='52.112.95.166', port=443)",ESTABLISHED
+27,2,1,"addr(ip='192.168.1.7', port=49932)","addr(ip='52.96.157.130', port=443)",ESTABLISHED
+41,2,1,"addr(ip='127.0.0.1', port=50769)",(),LISTEN
+61,2,1,"addr(ip='127.0.0.1', port=18679)",(),LISTEN
+72,2,1,"addr(ip='127.0.0.1', port=27996)",(),LISTEN
+27,2,1,"addr(ip='192.168.1.7', port=49289)","addr(ip='162.247.241.14', port=443)",ESTABLISHED
+28,2,1,"addr(ip='192.168.1.7', port=64052)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+29,2,1,"addr(ip='192.168.1.7', port=64050)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+31,2,1,"addr(ip='192.168.1.7', port=64053)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+39,2,1,"addr(ip='192.168.1.7', port=64065)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+40,2,1,"addr(ip='192.168.1.7', port=64051)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+42,2,1,"addr(ip='192.168.1.7', port=64054)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+43,2,1,"addr(ip='192.168.1.7', port=64055)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+48,2,1,"addr(ip='192.168.1.7', port=63758)","addr(ip='208.103.161.2', port=443)",ESTABLISHED
+63,2,1,"addr(ip='192.168.1.7', port=64066)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+27,2,1,"addr(ip='192.168.1.7', port=49930)","addr(ip='104.46.162.229', port=443)",ESTABLISHED
+30,2,1,"addr(ip='192.168.1.7', port=49933)","addr(ip='140.82.113.6', port=443)",ESTABLISHED
+34,2,1,"addr(ip='192.168.1.7', port=49931)","addr(ip='104.46.162.229', port=443)",ESTABLISHED
+15,2,1,"addr(ip='0.0.0.0', port=49928)",(),LISTEN
+16,30,1,"addr(ip='::', port=49928)",(),LISTEN
+22,30,1,"addr(ip='::', port=61804)",(),LISTEN
+24,30,1,"addr(ip='::', port=61805)",(),LISTEN
+18,30,1,"addr(ip='::', port=61803)",(),LISTEN
+21,30,1,"addr(ip='::', port=61806)",(),LISTEN
+20,30,1,"addr(ip='::', port=60590)",(),LISTEN
+28,2,1,"addr(ip='127.0.0.1', port=53430)",(),LISTEN
+38,2,1,"addr(ip='127.0.0.1', port=17430)",(),LISTEN
+28,2,1,"addr(ip='192.168.1.7', port=63751)","addr(ip='52.123.187.9', port=443)",ESTABLISHED
+22,2,1,"addr(ip='192.168.1.7', port=49578)","addr(ip='52.123.250.166', port=443)",ESTABLISHED
+24,2,1,"addr(ip='192.168.1.7', port=49929)","addr(ip='52.123.128.14', port=443)",ESTABLISHED
+25,2,1,"addr(ip='192.168.1.7', port=63963)","addr(ip='52.112.95.166', port=443)",ESTABLISHED
+27,2,1,"addr(ip='192.168.1.7', port=49932)","addr(ip='52.96.157.130', port=443)",ESTABLISHED
+41,2,1,"addr(ip='127.0.0.1', port=50769)",(),LISTEN
+61,2,1,"addr(ip='127.0.0.1', port=18679)",(),LISTEN
+72,2,1,"addr(ip='127.0.0.1', port=27996)",(),LISTEN
+27,2,1,"addr(ip='192.168.1.7', port=49289)","addr(ip='162.247.241.14', port=443)",ESTABLISHED
+28,2,1,"addr(ip='192.168.1.7', port=64052)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+29,2,1,"addr(ip='192.168.1.7', port=64050)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+31,2,1,"addr(ip='192.168.1.7', port=64053)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+39,2,1,"addr(ip='192.168.1.7', port=64065)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+40,2,1,"addr(ip='192.168.1.7', port=64051)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+42,2,1,"addr(ip='192.168.1.7', port=64054)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+43,2,1,"addr(ip='192.168.1.7', port=64055)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+48,2,1,"addr(ip='192.168.1.7', port=63758)","addr(ip='208.103.161.2', port=443)",ESTABLISHED
+63,2,1,"addr(ip='192.168.1.7', port=64066)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+27,2,1,"addr(ip='192.168.1.7', port=49930)","addr(ip='104.46.162.229', port=443)",ESTABLISHED
+30,2,1,"addr(ip='192.168.1.7', port=49933)","addr(ip='140.82.113.6', port=443)",ESTABLISHED
+34,2,1,"addr(ip='192.168.1.7', port=49931)","addr(ip='104.46.162.229', port=443)",ESTABLISHED
+15,2,1,"addr(ip='0.0.0.0', port=49928)",(),LISTEN
+16,30,1,"addr(ip='::', port=49928)",(),LISTEN
+22,30,1,"addr(ip='::', port=61804)",(),LISTEN
+24,30,1,"addr(ip='::', port=61805)",(),LISTEN
+18,30,1,"addr(ip='::', port=61803)",(),LISTEN
+21,30,1,"addr(ip='::', port=61806)",(),LISTEN
+20,30,1,"addr(ip='::', port=60590)",(),LISTEN
+28,2,1,"addr(ip='127.0.0.1', port=53430)",(),LISTEN
+38,2,1,"addr(ip='127.0.0.1', port=17430)",(),LISTEN
+28,2,1,"addr(ip='192.168.1.7', port=63751)","addr(ip='52.123.187.9', port=443)",ESTABLISHED
+22,2,1,"addr(ip='192.168.1.7', port=49578)","addr(ip='52.123.250.166', port=443)",ESTABLISHED
+24,2,1,"addr(ip='192.168.1.7', port=49929)","addr(ip='52.123.128.14', port=443)",ESTABLISHED
+25,2,1,"addr(ip='192.168.1.7', port=63963)","addr(ip='52.112.95.166', port=443)",ESTABLISHED
+27,2,1,"addr(ip='192.168.1.7', port=49932)","addr(ip='52.96.157.130', port=443)",ESTABLISHED
+41,2,1,"addr(ip='127.0.0.1', port=50769)",(),LISTEN
+61,2,1,"addr(ip='127.0.0.1', port=18679)",(),LISTEN
+72,2,1,"addr(ip='127.0.0.1', port=27996)",(),LISTEN
+27,2,1,"addr(ip='192.168.1.7', port=49289)","addr(ip='162.247.241.14', port=443)",ESTABLISHED
+28,2,1,"addr(ip='192.168.1.7', port=64052)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+29,2,1,"addr(ip='192.168.1.7', port=64050)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+31,2,1,"addr(ip='192.168.1.7', port=64053)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+39,2,1,"addr(ip='192.168.1.7', port=64065)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+40,2,1,"addr(ip='192.168.1.7', port=64051)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+42,2,1,"addr(ip='192.168.1.7', port=64054)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+43,2,1,"addr(ip='192.168.1.7', port=64055)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+48,2,1,"addr(ip='192.168.1.7', port=63758)","addr(ip='208.103.161.2', port=443)",ESTABLISHED
+63,2,1,"addr(ip='192.168.1.7', port=64066)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+27,2,1,"addr(ip='192.168.1.7', port=49930)","addr(ip='104.46.162.229', port=443)",ESTABLISHED
+30,2,1,"addr(ip='192.168.1.7', port=49933)","addr(ip='140.82.113.6', port=443)",ESTABLISHED
+34,2,1,"addr(ip='192.168.1.7', port=49931)","addr(ip='104.46.162.229', port=443)",ESTABLISHED
+15,2,1,"addr(ip='0.0.0.0', port=49928)",(),LISTEN
+16,30,1,"addr(ip='::', port=49928)",(),LISTEN
+22,30,1,"addr(ip='::', port=61804)",(),LISTEN
+24,30,1,"addr(ip='::', port=61805)",(),LISTEN
+18,30,1,"addr(ip='::', port=61803)",(),LISTEN
+21,30,1,"addr(ip='::', port=61806)",(),LISTEN
+20,30,1,"addr(ip='::', port=60590)",(),LISTEN
+28,2,1,"addr(ip='127.0.0.1', port=53430)",(),LISTEN
+38,2,1,"addr(ip='127.0.0.1', port=17430)",(),LISTEN
+28,2,1,"addr(ip='192.168.1.7', port=63751)","addr(ip='52.123.187.9', port=443)",ESTABLISHED
+22,2,1,"addr(ip='192.168.1.7', port=49578)","addr(ip='52.123.250.166', port=443)",ESTABLISHED
+24,2,1,"addr(ip='192.168.1.7', port=49929)","addr(ip='52.123.128.14', port=443)",ESTABLISHED
+25,2,1,"addr(ip='192.168.1.7', port=63963)","addr(ip='52.112.95.166', port=443)",ESTABLISHED
+27,2,1,"addr(ip='192.168.1.7', port=49932)","addr(ip='52.96.157.130', port=443)",ESTABLISHED
+41,2,1,"addr(ip='127.0.0.1', port=50769)",(),LISTEN
+61,2,1,"addr(ip='127.0.0.1', port=18679)",(),LISTEN
+72,2,1,"addr(ip='127.0.0.1', port=27996)",(),LISTEN
+27,2,1,"addr(ip='192.168.1.7', port=49289)","addr(ip='162.247.241.14', port=443)",ESTABLISHED
+28,2,1,"addr(ip='192.168.1.7', port=64052)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+29,2,1,"addr(ip='192.168.1.7', port=64050)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+31,2,1,"addr(ip='192.168.1.7', port=64053)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+39,2,1,"addr(ip='192.168.1.7', port=64065)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+40,2,1,"addr(ip='192.168.1.7', port=64051)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+42,2,1,"addr(ip='192.168.1.7', port=64054)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+43,2,1,"addr(ip='192.168.1.7', port=64055)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+48,2,1,"addr(ip='192.168.1.7', port=63758)","addr(ip='208.103.161.2', port=443)",ESTABLISHED
+63,2,1,"addr(ip='192.168.1.7', port=64066)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+27,2,1,"addr(ip='192.168.1.7', port=49930)","addr(ip='104.46.162.229', port=443)",ESTABLISHED
+30,2,1,"addr(ip='192.168.1.7', port=49933)","addr(ip='140.82.113.6', port=443)",ESTABLISHED
+34,2,1,"addr(ip='192.168.1.7', port=49931)","addr(ip='104.46.162.229', port=443)",ESTABLISHED
+15,2,1,"addr(ip='0.0.0.0', port=49928)",(),LISTEN
+16,30,1,"addr(ip='::', port=49928)",(),LISTEN
+22,30,1,"addr(ip='::', port=61804)",(),LISTEN
+24,30,1,"addr(ip='::', port=61805)",(),LISTEN
+18,30,1,"addr(ip='::', port=61803)",(),LISTEN
+21,30,1,"addr(ip='::', port=61806)",(),LISTEN
+20,30,1,"addr(ip='::', port=60590)",(),LISTEN
+28,2,1,"addr(ip='127.0.0.1', port=53430)",(),LISTEN
+38,2,1,"addr(ip='127.0.0.1', port=17430)",(),LISTEN
+28,2,1,"addr(ip='192.168.1.7', port=63751)","addr(ip='52.123.187.9', port=443)",ESTABLISHED
+22,2,1,"addr(ip='192.168.1.7', port=49578)","addr(ip='52.123.250.166', port=443)",ESTABLISHED
+24,2,1,"addr(ip='192.168.1.7', port=49929)","addr(ip='52.123.128.14', port=443)",ESTABLISHED
+25,2,1,"addr(ip='192.168.1.7', port=63963)","addr(ip='52.112.95.166', port=443)",ESTABLISHED
+27,2,1,"addr(ip='192.168.1.7', port=49932)","addr(ip='52.96.157.130', port=443)",ESTABLISHED
+41,2,1,"addr(ip='127.0.0.1', port=50769)",(),LISTEN
+61,2,1,"addr(ip='127.0.0.1', port=18679)",(),LISTEN
+72,2,1,"addr(ip='127.0.0.1', port=27996)",(),LISTEN
+27,2,1,"addr(ip='192.168.1.7', port=49289)","addr(ip='162.247.241.14', port=443)",ESTABLISHED
+28,2,1,"addr(ip='192.168.1.7', port=64052)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+29,2,1,"addr(ip='192.168.1.7', port=64050)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+31,2,1,"addr(ip='192.168.1.7', port=64053)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+39,2,1,"addr(ip='192.168.1.7', port=64065)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+40,2,1,"addr(ip='192.168.1.7', port=64051)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+42,2,1,"addr(ip='192.168.1.7', port=64054)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+43,2,1,"addr(ip='192.168.1.7', port=64055)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+48,2,1,"addr(ip='192.168.1.7', port=63758)","addr(ip='208.103.161.2', port=443)",ESTABLISHED
+63,2,1,"addr(ip='192.168.1.7', port=64066)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+27,2,1,"addr(ip='192.168.1.7', port=49930)","addr(ip='104.46.162.229', port=443)",ESTABLISHED
+30,2,1,"addr(ip='192.168.1.7', port=49933)","addr(ip='140.82.113.6', port=443)",ESTABLISHED
+34,2,1,"addr(ip='192.168.1.7', port=49931)","addr(ip='104.46.162.229', port=443)",ESTABLISHED
+15,2,1,"addr(ip='0.0.0.0', port=49928)",(),LISTEN
+16,30,1,"addr(ip='::', port=49928)",(),LISTEN
+22,30,1,"addr(ip='::', port=61804)",(),LISTEN
+24,30,1,"addr(ip='::', port=61805)",(),LISTEN
+18,30,1,"addr(ip='::', port=61803)",(),LISTEN
+21,30,1,"addr(ip='::', port=61806)",(),LISTEN
+20,30,1,"addr(ip='::', port=60590)",(),LISTEN
+28,2,1,"addr(ip='127.0.0.1', port=53430)",(),LISTEN
+38,2,1,"addr(ip='127.0.0.1', port=17430)",(),LISTEN
+28,2,1,"addr(ip='192.168.1.7', port=63751)","addr(ip='52.123.187.9', port=443)",ESTABLISHED
+22,2,1,"addr(ip='192.168.1.7', port=49578)","addr(ip='52.123.250.166', port=443)",ESTABLISHED
+24,2,1,"addr(ip='192.168.1.7', port=49929)","addr(ip='52.123.128.14', port=443)",ESTABLISHED
+25,2,1,"addr(ip='192.168.1.7', port=63963)","addr(ip='52.112.95.166', port=443)",ESTABLISHED
+27,2,1,"addr(ip='192.168.1.7', port=49932)","addr(ip='52.96.157.130', port=443)",ESTABLISHED
+41,2,1,"addr(ip='127.0.0.1', port=50769)",(),LISTEN
+61,2,1,"addr(ip='127.0.0.1', port=18679)",(),LISTEN
+72,2,1,"addr(ip='127.0.0.1', port=27996)",(),LISTEN
+27,2,1,"addr(ip='192.168.1.7', port=49289)","addr(ip='162.247.241.14', port=443)",ESTABLISHED
+28,2,1,"addr(ip='192.168.1.7', port=64052)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+29,2,1,"addr(ip='192.168.1.7', port=64050)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+31,2,1,"addr(ip='192.168.1.7', port=64053)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+39,2,1,"addr(ip='192.168.1.7', port=64065)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+40,2,1,"addr(ip='192.168.1.7', port=64051)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+42,2,1,"addr(ip='192.168.1.7', port=64054)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+43,2,1,"addr(ip='192.168.1.7', port=64055)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+48,2,1,"addr(ip='192.168.1.7', port=63758)","addr(ip='208.103.161.2', port=443)",ESTABLISHED
+63,2,1,"addr(ip='192.168.1.7', port=64066)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+27,2,1,"addr(ip='192.168.1.7', port=49930)","addr(ip='104.46.162.229', port=443)",ESTABLISHED
+30,2,1,"addr(ip='192.168.1.7', port=49933)","addr(ip='140.82.113.6', port=443)",ESTABLISHED
+34,2,1,"addr(ip='192.168.1.7', port=49931)","addr(ip='104.46.162.229', port=443)",ESTABLISHED
+15,2,1,"addr(ip='0.0.0.0', port=49928)",(),LISTEN
+16,30,1,"addr(ip='::', port=49928)",(),LISTEN
+22,30,1,"addr(ip='::', port=61804)",(),LISTEN
+24,30,1,"addr(ip='::', port=61805)",(),LISTEN
+18,30,1,"addr(ip='::', port=61803)",(),LISTEN
+21,30,1,"addr(ip='::', port=61806)",(),LISTEN
+20,30,1,"addr(ip='::', port=60590)",(),LISTEN
+28,2,1,"addr(ip='127.0.0.1', port=53430)",(),LISTEN
+38,2,1,"addr(ip='127.0.0.1', port=17430)",(),LISTEN
+28,2,1,"addr(ip='192.168.1.7', port=63751)","addr(ip='52.123.187.9', port=443)",ESTABLISHED
+22,2,1,"addr(ip='192.168.1.7', port=49578)","addr(ip='52.123.250.166', port=443)",ESTABLISHED
+24,2,1,"addr(ip='192.168.1.7', port=49929)","addr(ip='52.123.128.14', port=443)",ESTABLISHED
+25,2,1,"addr(ip='192.168.1.7', port=63963)","addr(ip='52.112.95.166', port=443)",ESTABLISHED
+27,2,1,"addr(ip='192.168.1.7', port=49932)","addr(ip='52.96.157.130', port=443)",ESTABLISHED
+41,2,1,"addr(ip='127.0.0.1', port=50769)",(),LISTEN
+61,2,1,"addr(ip='127.0.0.1', port=18679)",(),LISTEN
+72,2,1,"addr(ip='127.0.0.1', port=27996)",(),LISTEN
+27,2,1,"addr(ip='192.168.1.7', port=49289)","addr(ip='162.247.241.14', port=443)",ESTABLISHED
+28,2,1,"addr(ip='192.168.1.7', port=64052)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+29,2,1,"addr(ip='192.168.1.7', port=64050)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+31,2,1,"addr(ip='192.168.1.7', port=64053)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+39,2,1,"addr(ip='192.168.1.7', port=64065)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+40,2,1,"addr(ip='192.168.1.7', port=64051)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+42,2,1,"addr(ip='192.168.1.7', port=64054)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+43,2,1,"addr(ip='192.168.1.7', port=64055)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+48,2,1,"addr(ip='192.168.1.7', port=63758)","addr(ip='208.103.161.2', port=443)",ESTABLISHED
+63,2,1,"addr(ip='192.168.1.7', port=64066)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+27,2,1,"addr(ip='192.168.1.7', port=49930)","addr(ip='104.46.162.229', port=443)",ESTABLISHED
+30,2,1,"addr(ip='192.168.1.7', port=49933)","addr(ip='140.82.113.6', port=443)",ESTABLISHED
+34,2,1,"addr(ip='192.168.1.7', port=49931)","addr(ip='104.46.162.229', port=443)",ESTABLISHED
+15,2,1,"addr(ip='0.0.0.0', port=49928)",(),LISTEN
+16,30,1,"addr(ip='::', port=49928)",(),LISTEN
+22,30,1,"addr(ip='::', port=61804)",(),LISTEN
+24,30,1,"addr(ip='::', port=61805)",(),LISTEN
+18,30,1,"addr(ip='::', port=61803)",(),LISTEN
+21,30,1,"addr(ip='::', port=61806)",(),LISTEN
+20,30,1,"addr(ip='::', port=60590)",(),LISTEN
+28,2,1,"addr(ip='127.0.0.1', port=53430)",(),LISTEN
+38,2,1,"addr(ip='127.0.0.1', port=17430)",(),LISTEN
+28,2,1,"addr(ip='192.168.1.7', port=63751)","addr(ip='52.123.187.9', port=443)",ESTABLISHED
+22,2,1,"addr(ip='192.168.1.7', port=49578)","addr(ip='52.123.250.166', port=443)",ESTABLISHED
+24,2,1,"addr(ip='192.168.1.7', port=49929)","addr(ip='52.123.128.14', port=443)",ESTABLISHED
+25,2,1,"addr(ip='192.168.1.7', port=63963)","addr(ip='52.112.95.166', port=443)",ESTABLISHED
+27,2,1,"addr(ip='192.168.1.7', port=49932)","addr(ip='52.96.157.130', port=443)",ESTABLISHED
+41,2,1,"addr(ip='127.0.0.1', port=50769)",(),LISTEN
+61,2,1,"addr(ip='127.0.0.1', port=18679)",(),LISTEN
+72,2,1,"addr(ip='127.0.0.1', port=27996)",(),LISTEN
+27,2,1,"addr(ip='192.168.1.7', port=49289)","addr(ip='162.247.241.14', port=443)",ESTABLISHED
+28,2,1,"addr(ip='192.168.1.7', port=64052)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+29,2,1,"addr(ip='192.168.1.7', port=64050)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+31,2,1,"addr(ip='192.168.1.7', port=64053)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+39,2,1,"addr(ip='192.168.1.7', port=64065)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+40,2,1,"addr(ip='192.168.1.7', port=64051)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+42,2,1,"addr(ip='192.168.1.7', port=64054)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+43,2,1,"addr(ip='192.168.1.7', port=64055)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+48,2,1,"addr(ip='192.168.1.7', port=63758)","addr(ip='208.103.161.2', port=443)",ESTABLISHED
+63,2,1,"addr(ip='192.168.1.7', port=64066)","addr(ip='16.58.75.118', port=443)",ESTABLISHED
+27,2,1,"addr(ip='192.168.1.7', port=49930)","addr(ip='104.46.162.229', port=443)",ESTABLISHED
+30,2,1,"addr(ip='192.168.1.7', port=49933)","addr(ip='140.82.113.6', port=443)",ESTABLISHED
+34,2,1,"addr(ip='192.168.1.7', port=49931)","addr(ip='104.46.162.229', port=443)",ESTABLISHED
+15,2,1,"addr(ip='0.0.0.0', port=49928)",(),LISTEN
+16,30,1,"addr(ip='::', port=49928)",(),LISTEN
+22,30,1,"addr(ip='::', port=61804)",(),LISTEN
+24,30,1,"addr(ip='::', port=61805)",(),LISTEN
+18,30,1,"addr(ip='::', port=61803)",(),LISTEN
+21,30,1,"addr(ip='::', port=61806)",(),LISTEN
+20,30,1,"addr(ip='::', port=60590)",(),LISTEN
