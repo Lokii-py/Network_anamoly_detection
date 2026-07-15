@@ -11,24 +11,29 @@ def extract_network_info():
 def main(time):
     """the entry point to the code"""
     data_dict = {
-        "fd" : [],
         "family": [],
         "type": [],
-        "laddr": [],
-        "raddr": [],
+        "local_ip": [],
+        "local_port": [],
+        "remote_ip": [],
+        "remote_port": [],
         "status": []
     }
     print(f"running until {time} times")
     for _ in range(time):
         data = extract_network_info()
-        # print(data)
-        # break
         for item in data:
-            data_dict["fd"].append(item.fd)
             data_dict["family"].append(item.family)
             data_dict["type"].append(item.type)
-            data_dict["laddr"].append(item.laddr)
-            data_dict["raddr"].append(item.raddr)
+
+            local_ip = getattr(item.laddr, "ip", "None")
+            data_dict["local_ip"].append(local_ip if local_ip != "::" else "None")
+            data_dict["local_port"].append(getattr(item.laddr, "port", "None"))
+
+            remote_ip = getattr(item.raddr, "ip", "None")
+            data_dict["remote_ip"].append(remote_ip if remote_ip != "::" else "None")
+            data_dict["remote_port"].append(getattr(item.raddr, "port", "None"))
+
             data_dict["status"].append(item.status)
 
     data_csv = pd.DataFrame(data_dict)
