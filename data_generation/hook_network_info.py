@@ -1,7 +1,6 @@
-import os
 import time
 import psutil
-
+import argparse
 import pandas as pd
 
 
@@ -11,7 +10,7 @@ def extract_network_info():
     return net_info
 
 
-def main(datapoints: int, target_pid: int):
+def main(target_pid: int, data_path: str = "./data/data.csv"):
     """the entry point to the code"""
 
     data_dict = {
@@ -25,9 +24,8 @@ def main(datapoints: int, target_pid: int):
     }
 
     deduplication_set = set()
-    print(f"[info] Running this script until {datapoints} datapoints")
 
-    while datapoints > len(deduplication_set):
+    while psutil.pid_exists(target_pid):
         data = extract_network_info()
         for item in data:
             if item.pid == target_pid:
@@ -53,11 +51,9 @@ def main(datapoints: int, target_pid: int):
                     data_dict["status"].append(item.status)
                     deduplication_set.add(net)
 
-
         time.sleep(1.0)
 
     data_csv = pd.DataFrame(data_dict)
-    data_path = "./data.csv"
     data_csv.to_csv(data_path, index=False)
 
     print(f"[Into] There is {len(deduplication_set)} unique connections")
@@ -65,6 +61,7 @@ def main(datapoints: int, target_pid: int):
 
 
 if __name__ == "__main__":
-    pid = os.getpid()
-    print(f"[info] The PID of this script is {pid}")
-    main(datapoints=10, target_pid=pid)
+    parser = argparse.ArgumentParser(description="Get the PID for Automation")
+    parser.add_argument("--pid", type=int, required=True, help="The PID of the scripts/system you wnat to monitor")
+    args = parser.parse_args()
+    main(target_pid=args.pid)
