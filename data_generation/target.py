@@ -14,11 +14,11 @@ def make_conn(url):
         print("Got this problem while solving: ", e)
 
 
-def main(safe_web: str):
+def main(safe_web: str, conn_num: int = 10):
     with open(safe_web, 'r') as file:
         web_list = file.readlines()
 
-    for _ in range(100):
+    for _ in range(conn_num):
         web_addr = random.choice(web_list).strip()
         make_conn(web_addr)
         time.sleep(random.randint(2, 5))
@@ -27,5 +27,5 @@ def main(safe_web: str):
 if __name__ == "__main__":
     pid = os.getpid()
     print("The PID of this script is: ", pid)
-    time.sleep(10)
+    time.sleep(5)
     main("./data/safe_webaddress.txt")

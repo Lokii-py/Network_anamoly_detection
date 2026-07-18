@@ -51,12 +51,12 @@ def main(target_pid: int, data_path: str = "./data/data.csv"):
                     data_dict["status"].append(item.status)
                     deduplication_set.add(net)
 
-        time.sleep(1.0)
+        time.sleep(0.1)
 
     data_csv = pd.DataFrame(data_dict)
     data_csv.to_csv(data_path, index=False)
 
-    print(f"[Into] There is {len(deduplication_set)} unique connections")
+    print(f"[Info] There is {len(deduplication_set)} unique connections")
     print(f"[Info] The generated Data is at: {data_path}")
 
 
