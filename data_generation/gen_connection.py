@@ -3,7 +3,7 @@ import time
 import socket
 import random
 import requests
-
+import argparse
 
 def gen_fake_ip():
     """For generating Fake IP Address for Malicious Connection"""
@@ -58,13 +58,17 @@ def make_fake_conn():
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Number of datapoints to be generated")
+    parser.add_argument("--num-conn", type=int, default=100)
+    args = parser.parse_args()
+
     pid = os.getpid()
     print("The PID of this script is: ", pid)
 
     time.sleep(5)
     conn_num = 100
 
-    for _ in range(conn_num):
+    for _ in range(args.num_conn):
         choice_func = random.choice([0, 1])
         if choice_func == 0:
             make_safe_conn("./data/safe_webaddress.txt")
