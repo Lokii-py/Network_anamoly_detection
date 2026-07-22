@@ -20,7 +20,8 @@ def main(target_pid: int, data_path: str = "./data/data.csv"):
         "local_port": [],
         "remote_ip": [],
         "remote_port": [],
-        "status": []
+        "status": [],
+        "label": []
     }
 
     deduplication_set = set()
@@ -50,6 +51,8 @@ def main(target_pid: int, data_path: str = "./data/data.csv"):
 
                     data_dict["status"].append(item.status)
                     deduplication_set.add(net)
+
+                    data_dict["label"].append(1 if remote_port in [4444, 31337, 9999, 1337] else 0)
 
         time.sleep(0.1)
 
