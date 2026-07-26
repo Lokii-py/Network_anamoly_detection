@@ -3,14 +3,16 @@ import psutil
 import argparse
 import pandas as pd
 
+from pathlib import Path
 
-def extract_network_info():
-    """returns back port and other network info for creating the dataset"""
-    net_info = psutil.net_connections(kind="tcp")
-    return net_info
+BASE_DIR = Path(__file__).parent.parent.resolve()
+
+DATA_DIR = BASE_DIR / "data"
+DATA_DIR.mkdir(parents=True, exist_ok= True)
+CSV_FILE = DATA_DIR / "data.csv"
 
 
-def main(target_pid: int, data_path: str = "./data/data.csv"):
+def main(target_pid: int):
     """the entry point to the code"""
 
     data_dict = {
@@ -27,40 +29,40 @@ def main(target_pid: int, data_path: str = "./data/data.csv"):
     deduplication_set = set()
 
     while psutil.pid_exists(target_pid):
-        data = extract_network_info()
-        for item in data:
-            if item.pid == target_pid:
-                local_ip = getattr(item.laddr, "ip", "None")
-                local_port = getattr(item.laddr, "port", "None")
+        process = psutil.Process(target_pid)
+        target_conn = process.net_connections(kind="tcp")
+        for conn in target_conn:
+            local_ip = getattr(conn.laddr, "ip", "None")
+            local_port = getattr(conn.laddr, "port", "None")
 
-                remote_ip = getattr(item.raddr, "ip", "None")
-                remote_port = getattr(item.raddr, "port", "None")
+            remote_ip = getattr(conn.raddr, "ip", "None")
+            remote_port = getattr(conn.raddr, "port", "None")
 
-                net = f"{local_ip}-{local_port}:{remote_ip}-{remote_port}"
+            net = f"{local_ip}-{local_port}:{remote_ip}-{remote_port}"
 
-                if net not in deduplication_set:
+            if net not in deduplication_set:
 
-                    data_dict["family"].append(item.family)
-                    data_dict["type"].append(item.type)
+                data_dict["family"].append(conn.family)
+                data_dict["type"].append(conn.type)
 
-                    data_dict["local_ip"].append(local_ip if local_ip != "::" else "None")
-                    data_dict["local_port"].append(local_port)
+                data_dict["local_ip"].append(local_ip if local_ip != "::" else "None")
+                data_dict["local_port"].append(local_port)
 
-                    data_dict["remote_ip"].append(remote_ip if remote_ip != "::" else "None")
-                    data_dict["remote_port"].append(remote_port)
+                data_dict["remote_ip"].append(remote_ip if remote_ip != "::" else "None")
+                data_dict["remote_port"].append(remote_port)
 
-                    data_dict["status"].append(item.status)
-                    deduplication_set.add(net)
+                data_dict["status"].append(conn.status)
+                deduplication_set.add(net)
 
-                    data_dict["label"].append(1 if remote_port in [4444, 31337, 9999, 1337] else 0)
+                data_dict["label"].append(1 if remote_port in [4444, 31337, 9999, 1337] else 0)
 
         time.sleep(0.1)
 
     data_csv = pd.DataFrame(data_dict)
-    data_csv.to_csv(data_path, index=False)
+    data_csv.to_csv(CSV_FILE, index=False)
 
-    print(f"[Info] There is {len(deduplication_set)} unique connections")
-    print(f"[Info] The generated Data is at: {data_path}")
+    print(f"There is {len(deduplication_set)} unique connections")
+    print(f"The generated Data is at: {CSV_FILE}")
 
 
 if __name__ == "__main__":
