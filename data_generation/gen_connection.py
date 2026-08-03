@@ -70,6 +70,6 @@ if __name__ == "__main__":
     for _ in range(args.num_conn):
         choice_func = random.choice([0, 1])
         if choice_func == 0:
-            make_safe_conn("../backup_data/safe_webaddress.txt")
+            make_safe_conn("./data/safe_webaddress.txt")
         else:
             make_fake_conn()
