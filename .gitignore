@@ -2,5 +2,10 @@
 
 *.csv
 *.txt
+*.pyc
+
+__pycahce__
+
+
 temp.ipynb
 temp.py
