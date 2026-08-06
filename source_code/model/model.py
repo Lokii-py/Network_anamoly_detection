@@ -1,3 +1,4 @@
+import math
 import random
 
 class Model:
@@ -8,10 +9,14 @@ class Model:
             self.weights.append(random.random())
         self.bias = random.random()
 
+    def sigmoid(self, z: float):
+        return 1 / (1 + math.exp(-z))
+    
     def forward(self, inputs):
         """Get the input and multiply with model weight"""
         assert len(inputs) == len(self.weights), "The number of input should be equal to num of weights"
         z = 0
         for feature, weight in zip(inputs, self.weights):
             z += feature * weight
-        return (z + self.bias)
+        z += self.bias
+        return self.sigmoid(z)
