@@ -15,7 +15,6 @@ def loss(p, y):
 
 def train_model(csv_path: str, model):
     X, y = preprocess_data(csv_path)
-    print(X)
 
     for x, y in zip(X, y):
         prediction = model.forward(x)
