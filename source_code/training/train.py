@@ -1,9 +1,10 @@
 import logging
 
-from source_code.data_processing.process_data import preprocess_data
-from source_code.training.back_propagation import compute_weight_gradient, compute_bias_gradient
 from source_code.training.loss import loss
+from source_code.data_processing.process_data import preprocess_data
 from source_code.training.optimizer import update_weight, update_bias
+from source_code.utils.utils import Accuracy
+from source_code.training.back_propagation import compute_weight_gradient, compute_bias_gradient
 
 logging.basicConfig(
     level=logging.INFO,
@@ -15,10 +16,12 @@ def train_model(csv_path: str, model, epochs=10, lr=0.1):
 
     for epoch in range(epochs):
         epoch_loss = 0.0
+        epoch_acc = 0
 
         for x, y in zip(features, labels):
             prediction = model.forward(x)
             loss_value = loss(prediction, y)
+            acc = Accuracy(prediction, y)
             
             logging.debug(f"Actual Class: {y} | Prediction: {prediction:.4f} | Loss: {loss_value:.4f}")
 
@@ -38,5 +41,8 @@ def train_model(csv_path: str, model, epochs=10, lr=0.1):
             logging.debug(f"Model Bias After: {model.bias}")
 
             epoch_loss += loss_value
+            epoch_acc += acc
 
-        logging.info(f"Epoch: {epoch+1} | Avg.loss: {epoch_loss:.4f}")
+        epoch_loss /= len(features)
+        epoch_acc /= len(features)
+        logging.info(f"Epoch: {epoch+1} | Avg.loss: {epoch_loss:.4f} | Accuracy: {epoch_acc:.2f}")

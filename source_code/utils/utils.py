@@ -22,3 +22,9 @@ def clip_probablity(num):
     eps = 1e-9
     num = max(min(num, 1-eps), eps)
     return num
+
+
+def Accuracy(prediction, ground_truth):
+    #Convert the raw_prediction to class
+    predicted_cls = round(prediction)
+    return 1 if predicted_cls == ground_truth else 0
