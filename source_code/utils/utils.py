@@ -16,3 +16,9 @@ def load_data(csv_path: str, view_head=False):
             return None
     except:
         raise FileNotFoundError("Faulty CSV path")
+
+
+def clip_probablity(num):
+    eps = 1e-9
+    num = max(min(num, 1-eps), eps)
+    return num

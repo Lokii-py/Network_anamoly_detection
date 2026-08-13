@@ -1,5 +1,8 @@
 import math
 
+from source_code.utils.utils import clip_probablity
+
 def loss(p, y):
-    penalty = - ((y * math.log(p))+ ((1-y)*(math.log(1-p))))
+    p = clip_probablity(p)
+    penalty = - ((y * math.log(p)) + ((1-y)*(math.log(1-p))))
     return penalty

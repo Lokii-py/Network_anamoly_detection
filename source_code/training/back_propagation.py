@@ -1,7 +1,10 @@
 import math
 
+from source_code.utils.utils import clip_probablity
+
 def dloss_dprediction(prediction, actual_value):
     """If prediction changes a little bit, how much does the loss changes"""
+    prediction = clip_probablity(prediction)
     return (prediction - actual_value) / (prediction*(1-prediction))
 
 def dprediction_dz(prediction):
