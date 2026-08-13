@@ -11,8 +11,8 @@ def dprediction_dz(prediction):
 def dz_dweight(feature):
     return feature
 
-def dloss_dweight(prediction, actual_value, feature):
-    """It comes to (prediction - actual_value) * feature"""
+def compute_weight_gradient(prediction, actual_value, feature):
+    """dloss_dweight: It comes to (prediction - actual_value) * feature"""
     dL_dp = dloss_dprediction(prediction, actual_value)
     dp_dz = dprediction_dz(prediction)
     dz_dw = dz_dweight(feature)
@@ -27,7 +27,8 @@ def dloss_dweight(prediction, actual_value, feature):
 
     return dl_dw
 
-def dloss_dbias(prediction, actual_value):
+def computer_bias_gradient(prediction, actual_value):
+    """dloss_dbias"""
     dL_dp = dloss_dprediction(prediction, actual_value)
     dp_dz = dprediction_dz(prediction)
     dz_db = 1
@@ -41,9 +42,3 @@ def dloss_dbias(prediction, actual_value):
     )
 
     return dl_db
-
-def update_weight(gradient_val, lr, model, i):
-    model.weights[i] -= (lr * gradient_val)
-
-def update_bias(bias_val, lr, model):
-    model.bias -= (lr * bias_val)
