@@ -2,7 +2,6 @@ import math
 import logging
 
 from source_code.data_processing.process_data import preprocess_data
-from source_code.model.model import Model
 from source_code.training.back_propagation import compute_weight_gradient, computer_bias_gradient
 from source_code.training.loss import loss
 from source_code.training.optimizer import update_weight, update_bias
@@ -11,7 +10,6 @@ logging.basicConfig(
     level=logging.DEBUG,
     format='[%(levelname)s] %(message)s'
 )
-
 
 def train_model(csv_path: str, model, lr=0.1):
     X, y = preprocess_data(csv_path)
@@ -35,12 +33,3 @@ def train_model(csv_path: str, model, lr=0.1):
         bias_val = computer_bias_gradient(prediction, y)
         update_bias(bias_val, lr, model)
         logging.debug(f"Model Bias After: {model.bias}")
-
-        break
-
-
-
-## Testing
-
-model = Model(num_weights=2)
-train_model("data/data.csv", model)
