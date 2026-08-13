@@ -27,7 +27,7 @@ def compute_weight_gradient(prediction, actual_value, feature):
 
     return dl_dw
 
-def computer_bias_gradient(prediction, actual_value):
+def compute_bias_gradient(prediction, actual_value):
     """dloss_dbias"""
     dL_dp = dloss_dprediction(prediction, actual_value)
     dp_dz = dprediction_dz(prediction)
